@@ -3,7 +3,7 @@ resource "random_id" "random" {
     uuid = "${uuid()}"
   }
 
-  byte_length = 120
+  byte_length = 10
 }
 
 output "random" {
